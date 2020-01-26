@@ -1,0 +1,106 @@
+/*
+* Site-wide CSS
+*
+* --- COLORS ---
+* Purple: #8A2D71
+* Green: #8DC640
+* Blue: #004B8D
+* Gold: #FFCC00
+*/
+
+/* Set font for entire website to Product Sans */
+* {
+    font-family: 'Product Sans', Arial, sans-serif;
+}
+
+p {
+    font-size: 120%;
+}
+
+a {
+    color: #00164f;
+}
+
+legend {
+    font-size: 175%;
+}
+
+/* Nav bar stuff */
+.navbar {
+    background-color: white;
+    max-height: 10vh;
+}
+
+.navbar-image-left {
+    max-height: 10vh;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    text-align: left;
+}
+.navbar-image-right {
+    max-height: 10vh;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    float: right;
+    text-align: right;
+}
+
+.navbar-brand {
+    font-size: 115%;
+    color: #00164f;
+}
+
+a:hover {
+    color: #00164f;
+}
+
+.nav-link {
+    font-size: 115%;
+    color: #00164f;
+}
+
+.navbar-fixed .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+    color: #00164f;
+    background-color: white;
+    text-decoration: underline;
+    border-radius: 20px;
+}
+
+.active-link {
+    color: #00164f;
+    text-decoration: underline;
+}
+
+.main-container {
+    margin-top: 4em;
+}
+
+/* ----- End Navbar -----*/
+
+/* ----- Buttons -----*/
+.btn:active {
+    box-shadow: none;
+}
+
+.btn {
+    box-shadow: none;
+    color: #00164f;
+    background-color: #FFCC00;
+    height: 200%;
+}
+
+/* ----- Main Body -----*/
+.main-body {
+    background-color: #004b8d;
+}
+
+/* ----- Highlight color ----- */
+::selection {
+    background: #004b8d; /* WebKit/Blink Browsers */
+    color: white;
+}
+
+::-moz-selection {
+    background: #004b8d; /* Gecko Browsers */
+    color: white;
+}
